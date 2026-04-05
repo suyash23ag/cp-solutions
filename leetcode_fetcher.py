@@ -170,7 +170,7 @@ def save_solution(detail, submission_id):
     header = "\n".join(f"{comment_char} {line}" for line in header_lines)
     header += f"\n{comment_char} " + "─" * 50 + "\n\n"
 
-    with open(filepath, "w") as f:
+    with open(filepath, "w", encoding="utf-8") as f:
         f.write(header + code + "\n")
 
     logging.info(f"Saved: {filepath}")
