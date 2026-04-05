@@ -2,7 +2,7 @@
 # Difficulty: Easy
 # Tags     : Tree, Depth-First Search, Binary Tree
 # URL      : https://leetcode.com/problems/diameter-of-binary-tree/
-# Solved on: 2026-04-05 22:39
+# Solved on: 2026-04-05 22:59
 # ──────────────────────────────────────────────────
 
 # Definition for a binary tree node.
